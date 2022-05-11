@@ -27,7 +27,7 @@ const App = ({ Component, pageProps }: AppProps) => {
             url: 'https://www.videoask.com/fitxs0ezv',
             options: {
               widgetType: 'VideoThumbnailSmall',
-              text: 'Talk to me',
+              text: 'Need help?',
               backgroundColor: '#FE0030',
               position: 'bottom-right',
               dismissible: false,
