@@ -1,7 +1,6 @@
 import type { ImageProps } from 'next/image'
 import Image from 'next/image'
 import styled from '@emotion/styled'
-import imgSrc from '@app-public/profile-picture.jpg'
 
 const RoundedImage = styled(Image)`
   border-radius: 100%;
