@@ -8,6 +8,7 @@ import {
   useColorModeValue,
   useToken,
 } from '@chakra-ui/react'
+import Link from 'next/link'
 import ColorModeButton from '~/components/ColorModeButton'
 
 // interface HeaderLinkProps extends Omit<ChakraLinkProps, 'href'> {
@@ -71,7 +72,7 @@ export const Header = (props: BoxProps) => {
             bgPosition="0 80%"
             bgRepeat="no-repeat"
           >
-            Davy Engone
+            <Link href="/">Davy Engone</Link>
           </Box>
           <Spacer />
           <HStack

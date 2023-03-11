@@ -85,13 +85,15 @@ const IndexPage = () => {
                 transition="transform 0.3s"
                 _hover={{ transform: 'scale(1.3)' }}
               >
-                <Link
+                <a
                   href={UserConfig.social[id as SocialNetwork]}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={title}
                   title={title}
                 >
                   <Icon as={icon} aria-hidden />
-                </Link>
+                </a>
               </Box>
             ))}
           </Flex>
