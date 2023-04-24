@@ -20,22 +20,25 @@ const App = ({ Component, pageProps }: AppProps) => {
 
   return (
     <>
-        <Script strategy="lazyOnload" id="video-ask">
+      <Script strategy="lazyOnload" id="video-ask">
         {`
           window.VIDEOASK_EMBED_CONFIG = {
-            kind: 'widget',
-            url: 'https://www.videoask.com/fitxs0ezv',
-            options: {
-              widgetType: 'VideoThumbnailSmall',
-              text: 'Need help?',
-              backgroundColor: '#FE0030',
-              position: 'bottom-right',
-              dismissible: false,
-            },
+            "kind": "widget",
+            "url": "https://meet.davyengone.io/fjp20d8ji",
+            "options": {
+              "widgetType": "VideoThumbnailExtraLarge",
+              "text": "",
+              "backgroundColor": "#e72531",
+              "position": "bottom-right",
+              "dismissible": false
+            }
           }
-        `}
+      `}
       </Script>
-      <Script strategy="lazyOnload" src="https://www.videoask.com/embed/embed.js" />
+      <Script
+        strategy="lazyOnload"
+        src="https://www.videoask.com/embed/embed.js"
+      />
       <Script strategy="lazyOnload" src="https://cdn.splitbee.io/sb.js" />
       <ChakraProvider theme={theme}>
         <DefaultSeo {...DefaultSeoConfig} />

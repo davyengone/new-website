@@ -3,14 +3,13 @@ import {
   Box,
   Flex,
   Heading,
-  Link,
   VStack,
   Icon,
   useColorModeValue,
 } from '@chakra-ui/react'
 import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 
-import {ProfilePicture} from '~/components/ProfilePicture'
+import { ProfilePicture } from '~/components/ProfilePicture'
 import { UserConfig } from '~/user.config'
 
 type SocialNetwork = keyof typeof UserConfig.social

@@ -1,4 +1,4 @@
-import type {BoxProps } from '@chakra-ui/react'
+import type { BoxProps } from '@chakra-ui/react'
 import {
   Box,
   HStack,
@@ -97,4 +97,3 @@ export const Header = (props: BoxProps) => {
     </Box>
   )
 }
-

@@ -19,4 +19,3 @@ export const ProfilePicture = (props: Omit<ImageProps, 'src'>) => {
     />
   )
 }
-
